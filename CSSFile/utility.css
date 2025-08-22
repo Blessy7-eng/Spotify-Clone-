@@ -1,0 +1,128 @@
+.border{
+    border: 2px solid white;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 12px 20px;
+    border-radius: 24px;
+    margin: 8px;
+    background-color: white;
+    color: black;
+}
+
+.margin{
+    margin: 3px;
+}
+
+.f-size{
+    font-size: 24px;
+}
+
+.invert{
+    filter: invert(1);
+} 
+/* this will invert black svg to white or vice versa */
+
+.f-w1{
+    font-weight: 700;
+}
+
+.f-w2{
+    font-weight: 400;
+}
+
+.box{
+    width: 80%;
+    background-color: #1f1f1f;
+    margin: 16px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.m1{
+    margin: 8px 0px;
+}
+
+.m2{
+    margin: 8px 21px 8px 0px;
+}
+
+.text-color{
+    color: #a4a199;
+}
+
+.color{
+    color: white;
+}
+
+.symbol-width{
+    width: 16px;
+}
+
+.btn-black{
+    padding: 10px 20px;
+    border-radius: 33px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.m3{
+    margin: 0px 8px 0px 0px;
+}
+
+.hover:hover{
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2a2a2a; 
+  border-radius: 10px;
+  border: 2px solid #121212; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3e3e3e; 
+}
+
+
+* {
+  scrollbar-color: #2a2a2a #121212;
+}
