@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\CssFile\style.css">
+    <link rel="stylesheet" href="\CssFile\utility.css">
+    <title>Spotify - web PLayer, Music for everyone</title>
+</head>
+
+<body class="bg-black">
+    <nav>
+        <ul>
+            <li><img src="\svgFiles\hamburger.svg" alt="" class="hamburger invert"></li>
+            <li><img src="\svgFiles\logo.svg" alt=""></li>
+            <li><img src="\svgFiles\home.svg" alt="" class="invert"></li>
+            <!-- <li><img src="svgFIles/search.svg" alt=""></li> -->
+        </ul>
+        <ul>
+            <!-- <li><button>Premium</button></li>
+            <li><button>Support</button></li>
+            <li><button>Download</button></li>
+            <li>
+                <div class="line"></div>
+            </li> -->
+            <li><img src="\svgFiles\download.svg" alt="" class="symbol-width"></li>
+            <li><button>Install App</button></li>
+            <li><button>Sign Up</button></li>
+            <li><button class="btn f-w1">Log in</button></li>
+        </ul>
+    </nav>
+
+    <div class="container flex">
+        <div class="left margin bg-grey">
+            <div class="flex space-between">
+                <div class="library f-size">Your Library</div>
+                <div class="close f-size text-color">✕</div>
+            </div>
+            <div class="songList">
+                <ul>
+                    <!-- <li>
+                        <img src="music.svg" alt="" class="invert">
+                        <div class="info">
+                            <div class="">Song Name</div>
+                            <div>Song Artist</div>
+                        </div>
+                        <div class="playNow flex">
+                            <span>Play Now</span>
+                            <img src="playbar.svg" alt="" class="invert">
+                        </div>
+                        
+                    </li> -->
+                </ul>
+            </div>
+
+            <!-- <div class="playlist box">
+                <div class="create gap">
+                    <h4 class="hover f-w1 m1">Create your first playlist</h4>
+                    <h4 class="hover f-w2 m1">It's easy, we'll help you</h4>
+                </div>
+                <button class="btn f-w1 m1">Create playlist</button>
+            </div>
+
+            <div class="podcasts box">
+                <div class="create gap">
+                    <h4 class="hover f-w1 m1">Let's find some podcasts to follow</h4>
+                    <h4 class="hover 
+                    3f-w2 m1">We'll keep you updated on new episodes</h4> 
+                </div>
+                <button class="btn f-w1 m1">Browse podcasts</button>
+            </div> -->
+
+            <footer>
+                <div class="terms flex flex-wrap">
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/legal/" class="text-color">Legal</a>
+                    </div>
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                            class="text-color">Safety & Privacy Center</a></div>
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                            class="text-color">Privacy Policy</a></div>
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                            class="text-color">Cookies</a></div>
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                            class="text-color">About Ads</a></div>
+                    <div class="term m2"><a href="https://www.spotify.com/in-en/accessibility/"
+                            class="text-color">Accessibility</a></div>
+                </div>
+
+                <a href="https://www.spotify.com/legal/cookies-policy/" class="color">
+                    <span class="hover m2">Cookies</span></a>
+
+                <div class="lang m1">
+                    <button class="btn-black f-w2 flex border"><img src="\svgFiles\lang.svg" class="invert symbol-width m3"><span
+                            class="m3">English</span></button>
+                </div>
+            </footer>
+        </div>
+
+        <div class="right margin bg-grey">
+            <div class="TrendingSongs">
+                <h1 class="hover">Playlist</h1>
+                <div class="cardContainer flex">
+                </div>
+
+                <hr>
+
+                <footer>
+                    <div class="footer flex space-between flex-wrap">
+                        <div class="footItems">
+                            <p>Company</p>
+                            <a href="">About</a>
+                            <a href="">Jobs</a>
+                            <a href="">For the Record</a>
+                        </div>
+
+                        <div class="footItems">
+                            <p>Communities</p>
+                            <a href="">For Artists</a>
+                            <a href="">Developers</a>
+                            <a href="">Advertising</a>
+                            <a href="">Investors</a>
+                            <a href="">Vendors</a>
+                        </div>
+
+                        <div class="footItems">
+                            <p>Useful Links</p>
+                            <a href="">Support</a>
+                            <a href="">Free Mobile App</a>
+                            <a href="">Popular by Country</a>
+                        </div>
+
+                        <div class="footItems">
+                            <p>Spotify Plans</p>
+                            <a href="">Premium</a>
+                            <a href="">Premium Duo</a>
+                            <a href="">Premium Family</a>
+                            <a href="">Premium Student</a>
+                            <a href="">Spotify Free</a>
+                        </div>
+
+                        <div class="footItems">
+                            <img src="\svgFiles\insta.svg" class="invert">
+                            <img src="\svgFiles\twit.svg" class="invert">
+                            <img src="\svgFiles\face.svg" class="invert">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="copyright">
+                        <p> © 2025 Spotify AB</p>
+                    </div>
+                </footer>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="infobar">
+                        <div class="songInfo"></div>
+                        <div class="songButtons flex">
+                            <img width="20px" id="previous" src="\svgFiles\previous.svg" class="invert">
+                            <img width="20px" id="play" src="\svgFiles\playbar.svg" class="invert">
+                            <img width="20px" id="next" src="\svgFiles\next.svg" class="invert">
+                        </div>
+                        <div class="timevol">
+                            <div class="songTime"></div>
+                            <div class="volume">
+                                <img width="25" src="\svgFiles\volume.svg" class="invert">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div> 
+                        </div>
+                        
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="\javascript\script.js"></script>
+</body>
+
+</html>
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" class="e-91000-icon e-91000-baseline" viewBox="0 0 24 24"><path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4 class="hover"v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732z"/></svg> -->
+<!-- 3:41:53 -->
